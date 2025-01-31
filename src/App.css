@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+*{
+  box-sizing: border-box;
+  font-family: var(--base-font) !important;
+}
+:root{
+  --base-font:"Space Grotesk", serif;
+  --primary-color:#B9FF66;
+  --secondary-color:#191A23;
+  --white-color:#ffffff;
+  --gray-color:#F3F3F3;
+}
+.primary-btn{
+  background-color: var(--secondary-color);
+  color: var(--white-color);
+  border-radius: 14px;
+  min-height: 68px;
+  font-size: 20px;
+  padding: 10px 20px;
+  min-width: 264px;
+  cursor: pointer;
+}
+.css-5c1adp-MuiContainer-root {
+  max-width: 1280px !important;
+  padding-inline: 20px !important;
+}
+.cardItems .cardItem {
+  background:var(--gray-color);
+  h3{
+    background-color: var(--primary-color);
+  }
+}
+.cardItems .cardItem:nth-child(2),.cardItems .cardItem:nth-child(5) {
+  background:var(--primary-color);
+  h3{
+    background-color: var(--white-color);
+  }
+}
+.cardItems .cardItem:nth-child(3),.cardItems .cardItem:nth-child(6) {
+  background:var(--secondary-color);
+}
+
+.contactform{
+  input{
+    border: 1px solid;
+    border-radius: 14px;
+    min-height: 59px;
+    padding-inline: 20px;
+    background-color: var(--white-color);
+  }
+  .error{
+    color: red;
+  }
+}
